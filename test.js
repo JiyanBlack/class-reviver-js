@@ -1,6 +1,7 @@
 //for testing this module
 const reviver = require('./reviver.js');
 const path = require('path');
+const fs=require('fs');
 
 //sample class
 class Person {
@@ -41,4 +42,6 @@ let another_me = another_reviver.revive(JSON.parse(JSON.stringify(me)));
 another_me.printName();
 another_me.printAge();
 another_me.printPath();
+fs.unlinkSync('./me.js');
 console.log("Tests done!");
+
