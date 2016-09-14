@@ -34,4 +34,4 @@ newMe.printName(); //JiYan
 newMe.printAge(); //24
 ```
 
-See more infor
+See more information on: [Github class-reviver](https://github.com/JiyanBlack/class-reviver-js#readme).
