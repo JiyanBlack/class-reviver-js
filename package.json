@@ -1,0 +1,29 @@
+{
+  "name": "class-reviver",
+  "version": "0.1.0",
+  "description": "A tool for serializing and deserializing ES2015 Class with Class methods.",
+  "main": "reviver.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiyanBlack/class-reviver-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "revive",
+    "reviver",
+    "npm",
+    "module",
+    "class",
+    "es2015"
+  ],
+  "author": "Yan Ji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiyanBlack/class-reviver-js/issues"
+  },
+  "homepage": "https://github.com/JiyanBlack/class-reviver-js#readme"
+}
